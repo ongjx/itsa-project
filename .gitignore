@@ -1,0 +1,16 @@
+initial-app/aws-resources/env
+initial-app/aws-resources/getDestinations
+initial-app/aws-resources/terraform-root
+initial-app/aws-resources/testfunc
+initial-app/aws-resources/testredisfunc
+initial-app/aws-resources/lambda_s3
+initial-app/aws-resources/merged/.terraform
+initial-app/aws-resources/merged backup/
+.DS_Store
+*.lock.hcl
+*terraform-provider*
+# *tfstate*
+# aws-resources
+initial-app/backend/.env
+initial-app/aws-resources/merged/data/kaligo_inventory_prod_destinations.csv
+initial-app/aws-resources/merged/data/kaligo_inventory_prod_hotels.csv

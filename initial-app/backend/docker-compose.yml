@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+    booking:
+        build: "./booking"
+        image: "${DOCKER_REGISTRY}:booking"
+
+    registration:
+        build: "./registration"
+        image: "${DOCKER_REGISTRY}:registration"
+
+    login:
+        build: "./login"
+        image: "${DOCKER_REGISTRY}:login"
